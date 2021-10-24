@@ -1,0 +1,19 @@
+{
+  "name": "ivanlulyf/bunnyphp-app",
+  "description": "BunnyPHP Base App",
+  "keywords": [
+    "framework",
+    "mvc"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "IvanLu",
+      "email": "me@ivanlu.cn"
+    }
+  ],
+  "require": {
+    "ivanlulyf/bunnyphp": "@dev"
+  }
+}

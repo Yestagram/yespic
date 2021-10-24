@@ -1,0 +1,6 @@
+/config/config.php
+/config/install.lock
+/upload/
+/cache/
+.idea/
+/vendor/

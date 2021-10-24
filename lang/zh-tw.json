@@ -1,0 +1,6 @@
+{
+  "welcome": "歡迎使用BunnyPHP",
+  "greeting": "你好, ",
+  "intro": "如果能夠看到這個頁面, 說明BunnyPHP已經可以成功運行啦.",
+  "thank": "感謝使用BunnyPHP."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "BunnyPHP",
+  "description": "A BunnyPHP App in Heroku",
+  "repository": "https://github.com/IvanLuLyf/BunnyPHP-App",
+  "addons": [
+    "heroku-postgresql"
+  ]
+}
