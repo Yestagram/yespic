@@ -20,6 +20,12 @@ class IpfsController extends Controller
         return ['ret' => 0, 'status' => 'ok', 'url' => $url];
     }
 
+    public function ac_write_post(string $content)
+    {
+        $url = BunnyPHP::getStorage()->write('content/' . sha1(time()) . '.txt', $content);
+        return ['ret' => 0, 'status' => 'ok', 'url' => $url];
+    }
+
     /**
      * @param string $storageName config(storage.name)
      * @param array $hash path()
