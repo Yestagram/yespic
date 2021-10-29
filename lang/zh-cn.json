@@ -1,6 +1,5 @@
 {
-  "welcome": "欢迎使用BunnyPHP",
-  "greeting": "你好, ",
-  "intro": "如果能够看到这个页面, 说明BunnyPHP已经可以成功运行啦.",
-  "thank": "感谢使用BunnyPHP."
+  "title": "标题",
+  "publish": "发布",
+  "content_hint": "请输入内容"
 }

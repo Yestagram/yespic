@@ -44,7 +44,6 @@
             border: deepskyblue 1px solid;
             background: linear-gradient(deepskyblue, dodgerblue);
             color: white;
-            width: 66px;
             outline: none;
         }
 
@@ -69,12 +68,12 @@
 <div id="toolbar" class="toolbar">
 </div>
 <div style="padding: 5px 0; color: #ccc">
-    <label for="txt_title">标题</label><input id="txt_title" type="text" class="input-text"/>
+    <label for="txt_title"><?= $_LANG['title'] ?></label><input id="txt_title" type="text" class="input-text"/>
 </div>
 <div id="editor" class="text">
 </div>
 <div style="margin-top: 12px;">
-    <button id="btn_publish" class="btn">发布</button>
+    <button id="btn_publish" class="btn"><?= $_LANG['publish'] ?></button>
 </div>
 <p class="result" id="txt_result"></p>
 <script type="text/css" id="css">

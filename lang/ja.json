@@ -1,6 +1,5 @@
 {
-  "welcome": "BunnyPHPへようこそ",
-  "greeting": "こんにちは、 ",
-  "intro": "このページが表示される場合、BunnyPHPが正常に実行できることを意味します。",
-  "thank": "BunnyPHPをご利用いただきありがとうございます。"
+  "title": "題名",
+  "publish": "公開",
+  "content_hint": "入力内容"
 }

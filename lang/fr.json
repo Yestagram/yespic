@@ -1,6 +1,5 @@
 {
-  "welcome": "Bienvenue à BunnyPHP",
-  "greeting": "Bonjour, ",
-  "intro": "Si vous voyez cette page, le BunnyPHP fonctionne correctement.",
-  "thank": "Merci d'utiliser BunnyPHP."
+  "title": "Titre",
+  "publish": "Publier",
+  "content_hint": "contenu d'entrée"
 }
