@@ -1,2 +1,0 @@
-language = "nix"
-run = "composer install && php -S 0.0.0.0:8000"
