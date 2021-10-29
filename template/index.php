@@ -125,6 +125,7 @@
 </script>
 <script type="text/javascript">
     (function () {
+        const URL = `${location.protocol}//${location.host}`;
         let editor = new wangEditor('#toolbar', '#editor');
         let btnPublish = document.getElementById('btn_publish');
         let cssTag = document.getElementById('css');
@@ -170,7 +171,7 @@
             data.append('content', html);
             fetch("/ipfs/write", {method: 'post', mode: 'cors', body: data,})
                 .then(res => res.json()).then(res => {
-                txt_result.innerHTML = `<a href="${res.url}" target="_blank">${res.url}</a>`;
+                txt_result.innerHTML = `<a href="${res.url}" target="_blank">${URL + res.url}</a>`;
                 txt_result.style.display = "block";
             })
         })
