@@ -20,6 +20,7 @@
         .text {
             border: 1px solid #ccc;
             min-height: 400px;
+            height: calc(100vh - 240px);
         }
 
         .input-text {
