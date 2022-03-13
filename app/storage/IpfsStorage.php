@@ -17,8 +17,7 @@ class IpfsStorage implements Storage
 
     public function read($filename)
     {
-
-        return RequestUtil::doGet($this->server . "/cat?arg=" . $filename);
+        return RequestUtil::doPost($this->server . "/cat?arg=" . $filename);
     }
 
     public function write($filename, $content): string

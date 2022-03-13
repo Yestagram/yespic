@@ -9,7 +9,7 @@ class RequestUtil
         return self::sendRequest($url);
     }
 
-    public static function doPost($url, $data)
+    public static function doPost($url, $data = '')
     {
         return self::sendRequest($url, $data, 'POST', ['Content-Type: application/x-www-form-urlencoded']);
     }
